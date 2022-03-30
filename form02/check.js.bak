@@ -1,0 +1,29 @@
+function check()
+{
+	var ht= f.HoTen.value;
+	var dc= f.DiaChi.value;
+	var em = f.EMAIL.value;
+	var dt = f.DienThoai.value;
+	
+	if(ht=='')
+	{
+		alert('Họ tên không được bỏ trống!');
+		return false;
+	}
+	if(dc =='')
+	{
+		alert('Địa chỉ không được bỏ trống!');
+		return false;
+	}
+	if(em=='')
+	{
+		alert('Emailkhông được bỏ trống!');
+		return false;
+	}
+	if(dt== '')
+	{
+		alert('Điện thoại không được bỏ trống!');
+		return false;
+	}
+	return true;
+}
